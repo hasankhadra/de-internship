@@ -45,7 +45,7 @@ services:
     build:
       context: ./docker/mysql
     ports:
-      - "3306:3306"
+      - "3307:3306"
     environment:
       MYSQL_DATABASE: 'logging'
       MYSQL_USER: 'dev'
